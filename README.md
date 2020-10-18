@@ -7,3 +7,11 @@ This is the python implenentation of the bisection method with the following:
 #Outputs:
 1) It prints the approximate root of the function. Here, it is 2.9240177273750305
 2) It also prints the actual number of iterations taken to produce the approximate root. Here, 24 number of iterations are required.
+
+
+# Warning:
+The program uses recursive method instead of iterative method. Therefore, care should be taken if the number of theoritical iterations exceeds more than 1000. The system limit needs to be adjusted and integrate the following code:
+
+import sys
+
+sys.setrecursionlimit(100000)
